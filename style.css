@@ -1,0 +1,233 @@
+*{
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+}
+.first_section{
+    background-image:url(overlay.png),url(farabi.jpeg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    height:auto;
+}
+.logo{
+    width:26%;
+    float:left;
+    text-align:right;
+    padding:15px;
+    margin-bottom: 300px;
+
+}
+.logo h2{
+    color:white;
+}
+.menu{
+    width:40%;
+    float:right;
+    padding:15px;
+}
+.menu ul{
+    text-align:left;
+}
+.menu ul li{
+    display:inline-block;
+    padding:10px 0px;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding:10px 15px;
+    font-size: 20px;
+    color:white;
+}
+.menu ul li a:hover{
+    color:rgb(195, 199, 193);
+}
+
+.content{
+    background: rgba(1, 23, 31, 0.411);
+    clear:both;
+    margin-right:670px;
+    margin:0 auto;
+    width:20%;
+    padding:100px;
+    text-align:center;
+    color:wheat;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(68, 65, 65);
+}
+.content h2{
+    font-size: 26px;
+    font-family: arial;
+    margin-bottom: 15px;
+    
+}
+.content h4{
+    font-size:18px;
+    margin-bottom:50px;
+}
+
+.about{
+    background:black;
+    color:wheat;
+    margin-right:15px;
+}
+a.about{
+    text-decoration: none;
+    font-size:18px;
+    border:2px solid rgb(85, 49, 49);
+    padding:10px;
+
+}
+.contact{
+    background:black;
+    color:wheat;
+    margin-right:15px;
+}
+a.contact{
+    text-decoration: none;
+    font-size:18px;
+    border:2px solid rgb(85, 48, 48);
+    padding:10px; 
+}
+.second_section{
+    width:50%;
+    margin:0 auto;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    border: 2px solid gray;
+    padding:30px;
+    box-shadow: 0 0 10px grey;
+    background: #00000040;
+}
+.second_section h2{
+    border: 2px solid gray;
+    font-size: 30px;
+    text-align:center;
+    margin-bottom:50px;
+    color: white;
+}
+.second_section p{
+    font-size: 25px;
+    text-align:justify;
+    line-height: 30px;
+    color: wheat;
+}
+.service_section{
+   
+   margin-bottom: 50px;
+   margin-top:50px;
+}
+.service_section h2{
+    color: #f8f2f2;
+    text-align: center;
+    margin-bottom: 35px;
+    border:2px solid gray;
+    width: 55%;
+    margin: 0 auto;
+    font-size: 30px;
+}
+.box{
+   display:flex;
+   justify-content:space-around;
+   margin-top: 50px;
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-bottom: 130px;
+}
+.box1{
+    background: #0000003b;
+    box-shadow: 0 0 10px gray;
+    padding:20px;
+    width: 25%;
+}
+.box1 h3{
+    text-align: center;
+    color: wheat;
+}
+.box1 p{
+    font-size: 20px;
+    text-align:justify;
+    color: white;
+    line-height: 30px;
+}
+
+.contact_section{
+    background: #00000059;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 0 10px gray;
+    margin-bottom: 50px;
+}
+.contact_section h2{
+    text-align: center;
+    color:white;
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+.contact_box{
+    background: #0000002e;
+    box-shadow: 0 0 8px gray;
+    width:30%;
+    height:100px;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 180px;
+    color: gray;
+    border-radius: 10px;
+}
+.contact_box2{
+    background: #0000002e;
+    padding:30px;
+    width:40%;
+    box-shadow: 0 0 8px gray;
+    border-radius: 10px;
+}
+.contact2{
+    display:flex;
+    width:100%;
+    justify-content: space-around;
+}
+input{
+    width:75%;
+    margin:0 auto;
+    margin-bottom: 15px;
+    padding:15px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    box-shadow: 0 0 10px black;
+    font-size: 18px;
+    margin-left: 55px;
+    background: #00000052;
+    color: gray;
+}
+textarea{
+    width:75%;
+    margin:0 auto;
+    margin-bottom: 15px;
+    padding:15px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    box-shadow: 0 0 10px black;
+    font-size: 18px;
+    margin-left: 55px;
+    background: #00000052;
+}
+.copyright{
+    background:black;
+}
+.copyright h2{
+    color:white;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.material-icons{
+    font-size: 60px;
+    margin-left: 150px;
+    color: darkgray;
+}
